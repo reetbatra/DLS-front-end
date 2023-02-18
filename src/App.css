@@ -89,6 +89,12 @@ text-align: center;
 
 }
 
+
+.main-page{
+  display: flex;
+  flex-direction: row;
+}
+
 .buy-ticket-container p {
 
   width: 300px;
@@ -103,12 +109,27 @@ text-align: center;
 
 }
 
+.what-container {
+  width: 300px;
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin: 50px; 
+  padding: 30px;
+  padding-top: 80px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .right-side-container {
-
+width: 300px;
+  height: 400px;
   background-color: aliceblue;
-  border-radius: 8px;
-  padding-top: 100px;
+  border-radius: 5px;
+  margin: 50px; 
+  padding: 30px;
+  padding-top: 80px;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
